@@ -1,0 +1,9 @@
+# See https://github.com/github/linguist
+# Text file normalization
+build/* linguist-vendored  
+*.min.js linguist-generated
+*.min.css linguist-generated
+go.sum linguist-generated
+src/**/*.tsx linguist-detectable
+*.jpg binary
+public/index.html linguist-vendored
